@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#4d2c91</color>
     <color name="colorAccent">#b085f5</color>
     <color name="red">#E94252</color>
+    <color name="addtask">#7EF192</color>
+    <color name="delete">#F37272</color>
 </resources>
