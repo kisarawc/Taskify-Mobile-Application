@@ -23,12 +23,11 @@ class AllTasks : AppCompatActivity() {
     var recyclerView: RecyclerView? = null
     var add_button: FloatingActionButton? = null
 //    var empty_imageview: ImageView? = null
-//    var no_data: TextView? = null
-//    var myDB: Database? = null
-//    var book_id: ArrayList<String>? = null
-//    var book_title: ArrayList<String>? = null
-//    var book_author: ArrayList<String>? = null
-//    var book_pages: ArrayList<String>? = null
+    var no_data: TextView? = null
+    var myDB: Database? = null
+    var task_id: ArrayList<String>? = null
+    var task_title: ArrayList<String>? = null
+    var task_description: ArrayList<String>? = null
 //    var customAdapter: CustomAdapter? = null
 override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
@@ -44,7 +43,6 @@ override fun onCreate(savedInstanceState: Bundle?) {
 //        empty_imageview = findViewById<ImageView>(R.id.empty_imageview)
 //        no_data = findViewById<TextView>(R.id.no_data)
     add_button?.let { button ->
-        // Inside this block, 'button' is smart-cast to a non-null type
         button.setOnClickListener {
             val intent = Intent(this@AllTasks, AddTasks::class.java)
             startActivity(intent)
