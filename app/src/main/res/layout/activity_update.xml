@@ -33,12 +33,13 @@
 
     <Button
         android:id="@+id/update_button"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_marginTop="40dp"
-        android:backgroundTint="@color/colorAccent"
+        android:backgroundTint="#C8FFD4"
         android:text="Update"
         android:textAllCaps="false"
+        android:textColor="#4C9107"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,13 +47,13 @@
 
     <Button
         android:id="@+id/delete_button"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_marginTop="16dp"
-        android:backgroundTint="@color/delete"
+        android:backgroundTint="#FFA7A7"
         android:text="Delete"
         android:textAllCaps="false"
-        android:textColor="#FFFFFF"
+        android:textColor="#BB0909"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
